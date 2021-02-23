@@ -105,14 +105,123 @@ Publish the website in the given URL.
     </div>
 {% endblock  %}
 ```
-## OUTPUT:
-![output](./static/img/output1.jpg)
 
-![output](./static/img/output1.jpg)
+### people.html
+
+```
+
+{% extends "website/base.html" %}
+
+{% block content %}
+    <div class="peoplecontent">
+        <h1>Chief Officer's</h1>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/stephen-hawking.png" alt="president image" width="280" height="350">
+            </div>
+            <div class="peoplename"><h2>Stephen Hawking</h2></div>
+            <div class="peoplepost"><h3>(President)</h3></div>
+        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/elon.png" alt="CEO image" width="320" height="400">
+            </div>
+            <div class="peoplename"><h2>Elon Musk</h2></div>
+            <div class="peoplepost"><h3>(Chief Executive Officer)</h3></div>
+        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/stevejobs.jpg" alt="COO image" width="300" height="360">
+            </div>
+            <div class="peoplename"><h2>Steve Jobs</h2></div>
+            <div class="peoplepost"><h3>(Chief Operating Officer)</h3></div>
+        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/billgates.png" alt="CFO image" width="300" height="310">
+            </div>
+            <div class="peoplename"><h2>Bill Gates</h2></div>
+            <div class="peoplepost"><h3>(Chief Financial Officer)</h3></div>
+        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/sundar_pichai.png" alt="CLO image" width="340" height="310">
+            </div>
+            <div class="peoplename"><h2>Sundar Pichai</h2></div>
+            <div class="peoplepost"><h3>(Chief Legal Officer)</h3></div>
+        </div>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="peoplelists">
+        <div class="peoplelist">
+            <div class="peopleimage">
+                <img src="/static/img/jeffbezoz.png" alt="CMO image" width="330" height="460">
+            </div>
+            <div class="peoplename"><h2>Jeff Bezoz</h2></div>
+            <div class="peoplepost"><h3>(Chief Marketing Officer)</h3></div>
+        </div>
+    </div>
+{% endblock  %}
+
+```
+### contactus.html
+```
+{% extends "website/base.html" %}
+
+{% block content %}
+    <div class="contactuscontent">
+        <div class="contactbox">
+            <div>
+                <img src="/static/img/Contact-Us.png" alt="contactusimg">
+            </div>
+        </div>
+        <hr/>
+        <div class="contactemail"><h1>Email: siliconcompany@gmail.com</h1></div>
+        <div class="contactphone"><h2>Phone: +91-9876543212</h2></div>
+        <div class="contactphone"><h2>Address: © Silican pvt,Mountain View, California, United-States</h2></div>
+        <hr/>
+    </div>
+
+{% endblock %}
+```
+## OUTPUT:
+![output](./static/img/l1.png)
+
+![output](./static/img/l2.png)
+![output](./static/img/l3.png)
+
+![output](./static/img/l4.png)
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/report1.jpg)
+![output](./static/img/l5.png)
 
-![output](./static/img/report2.jpg)
+![output](./static/img/l6.png)
+![output](./static/img/l7.png)
+
+![output](./static/img/l8.png)
 ## RESULT:
-Thus a website is designed for the chip manufacturing company and is hosted in the URL http://demo2.student.saveetha.in:8000/. HTML code is validated.
+Thus a website is designed for the chip manufacturing company and is hosted in the URL http://krishnamoorthy.student.saveetha.in:8000/home/. HTML code is validated.

@@ -6,6 +6,14 @@ def home(request):
     context = {}
     return render(request, 'website/home.html', context)
 
-def products(request):
+def productslist(request):
     context = {}
-    return render(request, 'website/products.html', context)    
+    return render(request, 'website/products.html', context)
+
+def peoplelist(request):
+    context = {}
+    return render(request, 'website/people.html', context)
+
+def contactus(request):
+    context = {}
+    return render(request, 'website/contactus.html', context)    
